@@ -1,0 +1,13 @@
+.hobbies__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hobbies__list-item {
+  color: var(--hobby-box);
+  margin: 0.5em;
+}
