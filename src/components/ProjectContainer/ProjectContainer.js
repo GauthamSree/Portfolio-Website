@@ -5,7 +5,7 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <div>
+    <div className="pro_title">
       <h3>{project.name}</h3>
     </div>
 

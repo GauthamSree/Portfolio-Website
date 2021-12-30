@@ -9,7 +9,8 @@
   --clr-bg: #fcfcfc;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
-  --clr-fg-alt: #444;
+  --clr-fg-alt: black;
+  /* #444; */
   --clr-primary: rgb(186, 82, 85);
   --box-color: white;
   --hobby-box: #034694;

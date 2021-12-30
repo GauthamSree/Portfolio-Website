@@ -38,3 +38,15 @@
 .bottom {
   margin-top: auto;
 }
+
+.dark {
+  --pro_title: #444;
+}
+
+.dark {
+  --pro_title: #2891b1;
+}
+
+.pro_title h3 {
+  color: var(--pro_title);
+}
