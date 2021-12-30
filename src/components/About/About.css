@@ -1,6 +1,23 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  text-align: center;
+}
+
+.desc_pic_container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.desc_container {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
 
 .about__name {
@@ -27,6 +44,12 @@
 
 .about .btn--outline {
   margin-right: 1em;
+}
+
+.about_pic img {
+  margin-top: 40px;
+  width: 320px;
+  border-radius: 15px;
 }
 
 @media (max-width: 600px) {
