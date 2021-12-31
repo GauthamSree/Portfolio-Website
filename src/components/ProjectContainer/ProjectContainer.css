@@ -1,5 +1,6 @@
 .project {
   display: flex;
+  position: relative;
   flex-direction: column;
   padding: 2em;
   margin: 0 auto;
@@ -49,4 +50,15 @@
 
 .pro_title h3 {
   color: var(--pro_title);
+}
+
+.launch {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: translate(30%);
+  background-color: var(--clr-primary);
+  padding: 3px;
+  color: white;
+  border-radius: 0 20% 20% 0;
 }

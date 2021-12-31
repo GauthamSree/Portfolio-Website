@@ -1,6 +1,6 @@
 // import uniqid from 'uniqid'
 import { BsGithub } from "react-icons/bs";
-// import LaunchIcon from '@material-ui/icons/Launch'
+import { MdArrowForwardIos } from "react-icons/md";
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
@@ -34,13 +34,12 @@ const ProjectContainer = ({ project }) => (
       )}
 
       {project.livePreview && (
-        <a
-          href={project.livePreview}
-          aria-label='live preview'
-          className='link link--icon'
-        >
-          {/* <LaunchIcon /> */}
-        </a>
+          <a
+            href={project.livePreview}
+            aria-label='live preview'
+          >
+            <MdArrowForwardIos className="launch" size={35} />
+          </a>
       )}
     </div>
 
