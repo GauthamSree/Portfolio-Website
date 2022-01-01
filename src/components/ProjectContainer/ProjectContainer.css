@@ -45,7 +45,8 @@
 }
 
 .dark {
-  --pro_title: #2891b1;
+  --pro_title: #ffc2c2; 
+  /* DDDDDD */
 }
 
 .pro_title h3 {

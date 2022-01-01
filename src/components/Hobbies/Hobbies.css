@@ -8,6 +8,6 @@
 }
 
 .hobbies__list-item {
-  color: var(--hobby-box);
+  color: var(--clr-bg);
   margin: 0.5em;
 }

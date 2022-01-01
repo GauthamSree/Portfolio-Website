@@ -7,25 +7,27 @@
 
 .light {
   --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+  --clr-bg-alt: #FF7272;
   --clr-fg: #555;
-  --clr-fg-alt: black;
-  /* #444; */
-  --clr-primary: rgb(186, 82, 85);
+  --clr-fg-alt: #000B49;
+  --clr-primary: #9B0000;
+   /* rgb(186, 82, 85); */
   --box-color: white;
-  --hobby-box: #034694;
+  /* #034694; */
   /* #A22323; */
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #121212;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: rgb(21, 21, 21);
+  --clr-bg-alt: #FFE8E8;
   --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary:#0598c5;
+  --clr-fg-alt: #FFA0A0;
+  /* #FEC260; 88304E, F05454*/
+  --clr-primary: #DD4A48;
+  /* #0598c5; */
   --hobby-box: white;
-  --box-color: rgb(30, 30, 30);
+  --box-color: rgb(41, 41, 41);
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -99,7 +101,7 @@ main {
   cursor: pointer;
   padding: 0.8em 1.4em;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
 }
