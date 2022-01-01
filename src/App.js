@@ -8,7 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
-import Hobbies from './components/Hobbies/Hobbies'
+import Interests from './components/Interests/Interests'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -22,7 +22,7 @@ const App = () => {
         <Projects />
         <div className='Cont'>
           <Skills />
-          <Hobbies />
+          <Interests />
         </div>
         <Contact />
       </main>

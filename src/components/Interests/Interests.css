@@ -1,4 +1,4 @@
-.hobbies__list {
+.interests__list {
   max-width: 450px;
   width: 95%;
   margin: 0 auto;
@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.hobbies__list-item {
+.interests__list-item {
   color: var(--clr-bg);
   margin: 0.5em;
 }

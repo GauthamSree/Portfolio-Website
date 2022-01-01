@@ -3,7 +3,7 @@ import { MdLightMode, MdDarkMode} from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, hobbies } from '../../portfolio'
+import { projects, skills, contact, interests } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -42,14 +42,14 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {hobbies.length ? (
+        {interests.length ? (
           <li className='nav__list-item'>
             <a
-              href='#hobbies'
+              href='#interests'
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Hobbies
+              Interests
             </a>
           </li>
         ) : null}
