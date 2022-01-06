@@ -8,19 +8,19 @@
 }
 
 .skills__list-item {
-  color: var(--clr-primary);
+  color: white;
   font-size: 2rem;
   margin: 0.5em;
 }
 
 .skills {
   padding: 3%;
-  background-color: var(--clr-primary);
+  background-color: var(--skill-box);
   border-radius: 10px;
 }
 
 #skill_title {
-  color: white;
+  color: black;
 }
 
 .skill-btn:hover {
@@ -39,9 +39,9 @@
   display: block;
   padding: 0.8em 1.4em;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1rem;
   text-transform: initial;
-  background-color: var(--skill-box);
+  background-color: var(--clr-primary);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   transition: transform 0.2s ease-in-out;
   border: 0;
