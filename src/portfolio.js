@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://gauthamsreekumar.github.io/portfolio-website',
+  homepage: 'https://GauthamSree.github.io/Portfolio-Website',
   title: 'GS.',
 }
 
@@ -8,7 +8,7 @@ const about = {
   role: '3rd Year CSE Student',
   description:
     'An enthusiastic learner passionate to find innovative solutions to complex engineering problems with good hands-on experience in Data Science, Machine learning, AI and Software Engineering.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/1ynyumkdf27uSxbV5VkMC9buDW7_vSsNL/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/gautham-sreekumar-5662b318b',
     github: 'https://github.com/GauthamSree',
