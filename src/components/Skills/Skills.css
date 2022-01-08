@@ -41,6 +41,7 @@
   font-weight: 500;
   font-size: 1rem;
   text-transform: initial;
+  text-align: center;
   background-color: var(--clr-primary);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   transition: transform 0.2s ease-in-out;
