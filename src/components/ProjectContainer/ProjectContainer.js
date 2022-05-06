@@ -1,4 +1,3 @@
-// import uniqid from 'uniqid'
 import { BsGithub } from "react-icons/bs";
 import { MdArrowForwardIos } from "react-icons/md";
 import './ProjectContainer.css'
@@ -15,8 +14,8 @@ const ProjectContainer = ({ project }) => (
     <div className="bottom">
       {project.stack && (
         <ul className='project__stack'>
-          {project.stack.map((item) => (
-            <li className='project__stack-item'>
+          {project.stack.map((item, idx) => (
+            <li key={idx} className='project__stack-item'>
               {item}
             </li>
           ))}
