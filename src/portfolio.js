@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Gautham Sreekumar',
-  role: '3rd Year CSE Student',
+  role: 'B.Tech Computer Science',
   description:
     'An enthusiastic learner passionate to find innovative solutions to complex engineering problems with good hands-on experience in Data Science, Machine learning, AI and Software Engineering.',
   resume: 'https://drive.google.com/file/d/1ynyumkdf27uSxbV5VkMC9buDW7_vSsNL/view?usp=sharing',
@@ -58,6 +58,7 @@ const skills = [
   'Python',
   'C/C++',
   'Java',
+  'JSP',
   'Bash Scripting',
   'HTML',
   'CSS',
@@ -68,9 +69,11 @@ const skills = [
   'Git',
   'CI/CD',
   'PyTorch',
+  'QA Testing',
 ]
 
 const interests = [
+  'Software Engineering',
   'Artificial Intelligence',
   'Machine Learning',
   'Deep Learning',
