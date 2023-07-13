@@ -8,6 +8,10 @@ const ProjectContainer = ({ project }) => (
       <h3>{project.name}</h3>
     </div>
 
+    <div className="pro_comp">
+      {project.company}
+    </div>
+
     <div>
       <p className='project__description'>{project.description}</p>
     </div>

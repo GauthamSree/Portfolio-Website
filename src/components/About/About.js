@@ -4,7 +4,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { about } from '../../portfolio'
 import './About.css'
 
-import GS_Image from "./GauthamSreekumar.jpeg"
+import GS_Image from "./Gautham_Sreekumar.png"
 
 const About = () => {
   const { name, role, description, resume, social } = about

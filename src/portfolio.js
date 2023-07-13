@@ -7,7 +7,7 @@ const about = {
   name: 'Gautham Sreekumar',
   role: 'B.Tech Computer Science',
   description:
-    'An enthusiastic learner passionate to find innovative solutions to complex engineering problems with good hands-on experience in Data Science, Machine learning, AI and Software Engineering.',
+    'A fast learner passionate to find innovative solutions to complex engineering problems with good hands-on experience in Software Engineering, Machine learning, AI and Full-Stack Development.',
   resume: 'https://drive.google.com/file/d/1ynyumkdf27uSxbV5VkMC9buDW7_vSsNL/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/gautham-sreekumar-5662b318b',
@@ -54,6 +54,16 @@ const projects = [
   },
 ]
 
+const experience = [
+  {
+    name: 'Software Development Engineer Intern',
+    company: 'Amazon',
+    description:
+      'Reducing Latency by deduplication of service calls in Deliveries Tab of Subscribe & Save Page (Ops Improvements). Created Automated UI testing framework which enhanced deployment cycle frequency on Subscribe & Save Page. Creation and QA testing of Category Filter on Subscription Tab of Subscribe & Save Page for Improvement in Customer Experience. Created dashboard for monitoring and tracking features usages across marketplaces. Did projects which improved visibility and clarity by enhancing the CX for Subscribe & Save Page. Worked on Java, proprietary software. Also Won “Just Do It” Award in PR Hackathon 2023.',
+    stack: ['Java', 'JavaScript', 'Spring Boot', 'Spring MVC', 'JSP', 'JUnit', 'Mockito', 'XML']
+  },
+]
+
 const skills = [
   'Python',
   'C/C++',
@@ -88,4 +98,4 @@ const contact = {
   email: 'gauthamsreekumar2001@gmail.com',
 }
 
-export { header, about, projects, skills, interests, contact }
+export { header, about, experience, projects, skills, interests, contact }

@@ -53,6 +53,11 @@
   color: var(--pro_title);
 }
 
+.pro_comp {
+  margin-top: 8px;
+  font-size: 1.3rem;
+}
+
 .launch {
   position: absolute;
   bottom: 0px;
