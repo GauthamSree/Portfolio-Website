@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.99309341.css",
+    "main.css": "/Portfolio-Website/static/css/main.da37184e.css",
     "main.js": "/Portfolio-Website/static/js/main.ac6552b6.js",
     "static/media/Gautham_Sreekumar.png": "/Portfolio-Website/static/media/Gautham_Sreekumar.3e19d758ab6e325cdd81.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.99309341.css.map": "/Portfolio-Website/static/css/main.99309341.css.map",
+    "main.da37184e.css.map": "/Portfolio-Website/static/css/main.da37184e.css.map",
     "main.ac6552b6.js.map": "/Portfolio-Website/static/js/main.ac6552b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.99309341.css",
+    "static/css/main.da37184e.css",
     "static/js/main.ac6552b6.js"
   ]
 }
