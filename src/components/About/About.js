@@ -1,13 +1,12 @@
 // import GitHubIcon from '@material-ui/icons/GitHub'
 // import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { about } from '../../portfolio'
 import './About.css'
 
 import GS_Image from "./Gautham_Sreekumar.png"
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume } = about
 
   return (
     <div className='about center'>
@@ -30,30 +29,6 @@ const About = () => {
                   Resume
                 </span>
               </a>
-            )}
-
-            {social && (
-              <>
-                {social.github && (
-                  <a
-                    href={social.github}
-                    aria-label='github'
-                    className='link link--icon'
-                  >
-                    <BsGithub size={32} />
-                  </a>
-                )}
-
-                {social.linkedin && (
-                  <a
-                    href={social.linkedin}
-                    aria-label='linkedin'
-                    className='link link--icon'
-                  >
-                    <BsLinkedin size={32} />
-                  </a>
-                )}
-              </>
             )}
           </div>
         </div>

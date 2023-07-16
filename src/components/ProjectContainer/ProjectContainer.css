@@ -42,10 +42,13 @@
 
 .dark {
   --pro_title: #444;
+  --pro_comp: black;
 }
 
 .dark {
-  --pro_title: #ffc2c2; 
+  --pro_title: white;  
+  --pro_comp: #e8f0ff;
+
   /* DDDDDD */
 }
 
@@ -56,6 +59,7 @@
 .pro_comp {
   margin-top: 8px;
   font-size: 1.3rem;
+  color: var(--pro_comp);
 }
 
 .launch {

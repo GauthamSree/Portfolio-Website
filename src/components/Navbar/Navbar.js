@@ -82,7 +82,7 @@ const Navbar = () => {
       <button
         type='button'
         onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
+        className='btn--icon nav__theme'
         aria-label='toggle theme'
       >
         {themeName === 'dark' ? <MdLightMode size={25} /> : <MdDarkMode size={25} />}
@@ -91,7 +91,7 @@ const Navbar = () => {
       <button
         type='button'
         onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
+        className='btn--icon nav__hamburger'
         aria-label='toggle navigation'
       >
         {showNavList ? <AiOutlineClose size={25} /> : <FiMenu size={25} />}

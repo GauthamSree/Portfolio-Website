@@ -26,9 +26,8 @@ const App = () => {
           <Skills />
           <Interests />
         </div>
-        <Contact />
       </main>
-
+      <Contact />
       <ScrollToTop />
       <Footer />
     </div>

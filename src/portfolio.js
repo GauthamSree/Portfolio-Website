@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Gautham Sreekumar',
-  role: 'B.Tech Computer Science',
+  role: 'Software Engineer',
   description:
     'A fast learner passionate to find innovative solutions to complex engineering problems with good hands-on experience in Software Engineering, Machine learning, AI and Full-Stack Development.',
   resume: 'https://drive.google.com/file/d/1ynyumkdf27uSxbV5VkMC9buDW7_vSsNL/view?usp=sharing',
@@ -59,7 +59,15 @@ const experience = [
     name: 'Software Development Engineer Intern',
     company: 'Amazon',
     description:
-      'Reducing Latency by deduplication of service calls in Deliveries Tab of Subscribe & Save Page (Ops Improvements). Created Automated UI testing framework which enhanced deployment cycle frequency on Subscribe & Save Page. Creation and QA testing of Category Filter on Subscription Tab of Subscribe & Save Page for Improvement in Customer Experience. Created dashboard for monitoring and tracking features usages across marketplaces. Did projects which improved visibility and clarity by enhancing the CX for Subscribe & Save Page. Worked on Java, proprietary software. Also Won “Just Do It” Award in PR Hackathon 2023.',
+    (<>
+    Reducing Latency by deduplication of service calls in Deliveries Tab of Subscribe & Save Page (Ops Improvements). <br/>
+    Created Automated UI testing framework which enhanced deployment cycle frequency on Subscribe & Save Page. <br/>
+    Creation and QA testing of Category Filter on Subscription Tab of Subscribe & Save Page for Improvement in Customer Experience. <br/>
+    Created dashboard for monitoring and tracking features usages across marketplaces.<br/>
+    Did projects which improved visibility and clarity by enhancing the CX for Subscribe & Save Page. <br/>
+    Worked on Java, proprietary software. <br/>
+    Also Won “Just Do It” Award in PR Hackathon 2023.
+    </>),
     stack: ['Java', 'JavaScript', 'Spring Boot', 'Spring MVC', 'JSP', 'JUnit', 'Mockito', 'XML']
   },
 ]
@@ -96,6 +104,7 @@ const interests = [
 
 const contact = {
   email: 'gauthamsreekumar2001@gmail.com',
+  phone: '(+91) 6238502835'
 }
 
 export { header, about, experience, projects, skills, interests, contact }
