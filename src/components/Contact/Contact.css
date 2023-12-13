@@ -40,4 +40,11 @@
     margin-top: 20px;
     text-align: center;
   }
+
+  .contact__desc {
+    text-align: center;
+  }
+  .contact__desc a {
+    align-self: center;
+  }
 }

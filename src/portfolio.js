@@ -56,8 +56,23 @@ const projects = [
 
 const experience = [
   {
-    name: 'Software Development Engineer Intern',
-    company: 'Amazon',
+    name: 'sliQue Robotics',
+    role: 'Full Stack Engineer',
+    description:
+    (<>
+    Built the Fleet Management System of Robots from the scratch  <br/>
+    Developed the Frontend using React. <br/>
+    Designed and developed the Backend using Python (Flask).<br/>
+    Created pipelines and deployed on Amazon Web Services (AWS).<br/> 
+    Developed team management skills through managing and empowering a dynamic team to achieve collective success.   <br/>  
+    Enhanced proficiency in breaking down complex problem statements into smaller, manageable components and adeptly assigning timelines to each sub-task for efficient resolution.<br/>
+    Developed skills to convert business requirements into coding solutions.<br/>
+    </>),
+    stack: ['TypeScript', 'React', 'Python', 'Flask', 'MongoDB', 'AWS', 'Project Management', 'Team Management']
+  },
+  {
+    name: 'Amazon',
+    role: 'Software Development Engineer Intern',
     description:
     (<>
     Reducing Latency by deduplication of service calls in Deliveries Tab of Subscribe & Save Page (Ops Improvements). <br/>
@@ -88,6 +103,8 @@ const skills = [
   'CI/CD',
   'PyTorch',
   'QA Testing',
+  'Project Management', 
+  'Team Management',
 ]
 
 const interests = [

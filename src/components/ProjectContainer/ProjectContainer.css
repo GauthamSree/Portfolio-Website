@@ -42,12 +42,12 @@
 
 .dark {
   --pro_title: #444;
-  --pro_comp: black;
+  --pro_role: black;
 }
 
 .dark {
   --pro_title: white;  
-  --pro_comp: #e8f0ff;
+  --pro_role: #e8f0ff;
 
   /* DDDDDD */
 }
@@ -56,10 +56,10 @@
   color: var(--pro_title);
 }
 
-.pro_comp {
+.pro_role {
   margin-top: 8px;
   font-size: 1.3rem;
-  color: var(--pro_comp);
+  color: var(--pro_role);
 }
 
 .launch {

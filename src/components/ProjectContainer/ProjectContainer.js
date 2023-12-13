@@ -8,8 +8,8 @@ const ProjectContainer = ({ project }) => (
       <h3>{project.name}</h3>
     </div>
 
-    <div className="pro_comp">
-      {project.company}
+    <div className="pro_role">
+      {project.role}
     </div>
 
     <div>
@@ -45,7 +45,6 @@ const ProjectContainer = ({ project }) => (
           </a>
       )}
     </div>
-
   </div>
 )
 
